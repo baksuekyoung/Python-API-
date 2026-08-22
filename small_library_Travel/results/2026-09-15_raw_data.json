@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-15",
+  "recommendation": {
+    "recommended_city": "정보 없음",
+    "weather": "정보 없음",
+    "events": [],
+    "reason": "LLM API 호출에 실패했습니다."
+  },
+  "libraries": [],
+  "errors": [
+    {
+      "step": "recommendation_api_call",
+      "type": "NETWORK_OR_AUTH_ERROR",
+      "message": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AQ.Ab8RN6K-wyLdrimuKut_N9-TGxTYXN1DlS5HeC0O4MZclXKdAw"
+    },
+    {
+      "step": "report_generation",
+      "type": "NETWORK_OR_AUTH_ERROR",
+      "message": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AQ.Ab8RN6K-wyLdrimuKut_N9-TGxTYXN1DlS5HeC0O4MZclXKdAw"
+    }
+  ]
+}
